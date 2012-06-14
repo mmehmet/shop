@@ -1,0 +1,28 @@
+a:link		{text-decoration:none; color: #0000bb;}
+a:visited	{text-decoration:none; color: #0000bb;}
+a:hover		{text-decoration:none; color: #0066ff;}
+.navDiv
+{
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	background-image: url(pbg.png);
+	color: yellow;
+        position: fixed;
+	z-index: 51;
+}
+table	{border-collapse:collapse;}
+table.t	{width:100%}
+table	td.act	{
+	border-right: 1px solid #dedede;
+	text-align: left;
+	border-left: 1px solid #dedede;
+      background-image: url(pbg.png);
+	padding: 5px; }
+table	td.act a {color: #33ffff;}
+table	td.act a:hover        {color: white;}
+body
+{
+	margin-top: 35px;
+	background-color: white;
+}
